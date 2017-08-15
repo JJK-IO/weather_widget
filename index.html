@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>simpleWeather (forecast)</title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/weather_widget.css">
+</head>
+
+<body>
+
+<div class="row center-vert">
+  <div id="left-col" class="col-xs-6 text-right">
+    <h1 id="current-temp"></h1>
+    <p id="current-location"></p>
+    <p id="current-condition"></p>
+  </div>
+  <div id="right-col" class="col-xs-6 text-left">
+    <div id="forecast">
+    </div>
+  </div>
+  <div class="row text-center">
+    <img class="map"
+         src="http://icons.wxug.com/data/weather-maps/radar/united-states/jefferson-city-missouri-region-current-radar.gif"/>
+  </div>
+</div>
+
+
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="js/jquery.simpleWeather.min.js"></script>
+<script src='js/bootstrap.min.js'></script>
+<script src="js/weather_widget.js"></script>
+
+</body>
+</html>
